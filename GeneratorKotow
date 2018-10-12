@@ -1,0 +1,42 @@
+#Input pobiera dane z konsoli
+ileKotow = input("Jak wysoką piramidę z kotów mam zrobić")
+#zamiana napisu na liczbe
+try:
+    ileKotow = int(ileKotow)
+expect ValueError:
+    #tutaj są instrukcje które mają się uruchomić
+    #kiedy dojdzie do Value Erro
+    print("Program przyjmuje tylko liczby całkowite")
+    print('Uruchom ponownie ;)
+    
+
+#type(cos) zwraca typ cosia
+print(ileKotow,  'typem jest:',  type (ileKotow))
+
+"""
+termin oddania 26.10.18
+zadanie na tera jak nie bedzie czasu to do domu -_-
+
+napisać program który poda tyle kotów ile podasz (>_<)
+Przykład:
+Wpisujesz: 3
+Wypisuje: (>_<) (>_<) (>_<)
+"""
+
+"""
+zad dom
+napisac program ktory wypisuje schodki z kotow,
+wysokosc podajecie w konsoli
+Przykład":
+Dla 4
+Wypisuje:
+(>_<)
+(>_<)(>_<)
+(>_<)(>_<)(>_<)
+(>_<)(>_<)(>_<)(>_<)
+
+"""
+
+ileKotov = input ("ile tego")
+ileKotov = int
+print ileKotov
